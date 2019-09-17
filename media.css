@@ -1,3 +1,38 @@
-@media (max-width: 375px) {
+@media (max-width: 750px) {
+    .wrapper {
+        margin: 30px;
+    }
+}
+
+@media (max-width: 550px) {
+    html {
+        font-size: 14px;
+        font-family: 'Karla', sans-serif;
+    }
+    
+    .wrapper {
+        margin: 30px;
+        grid-template-columns: 1fr;
+    }
+
+    .box2 {
+        border-radius: 0px;
+    }
+
+    .box2__heading {
+        margin-bottom: 1.25rem;
+    }
+
+    .box2__price {
+        margin-bottom: 1.25rem;
+    }
+
+    .box2__desc {
+        margin-bottom: 2rem;
+    }
+
+    .box3 {
+        border-radius: 0px 0px 10px 10px;
+    }
 
 }
